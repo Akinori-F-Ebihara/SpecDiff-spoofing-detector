@@ -4,6 +4,9 @@ This repository contains an example code that calculates the SpecDiff descriptor
 ## Requirements
 - MATLAB R2017b
 
+## Tutorial
+Modify 'SpecDiff_main.m'
+
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
@@ -15,6 +18,7 @@ ___Please cite our paper if you use the whole or a part of our codes.___
   booktitle={2020 IEEE International Joint Conference on Biometrics (IJCB)}, 
    title     = {Specular- and Diffuse-reflection-based Face Liveness Detection for
                Mobile Devices},
-  year={2020}}
+  year={2020}
+  }
 
 ```
