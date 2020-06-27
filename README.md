@@ -1,7 +1,7 @@
 # SpecDiff-spoofing-detector
 This repository contains an example code that calculates the SpecDiff descriptor proposed in "Specular- and Diffuse-reflection-based Face Spoofing Detection for Mobile Devices" to perform face spoofing detection. The SpecDiff descriptor utilizes specular and diffuse reflection of a facial image, enables fast-and-accurate spoofing detection without either a large training database or a high-performance computing system.
 
-## Requirements
+## Tested computing environment
 - MATLAB R2017b
 
 ## Tutorial of the example code
