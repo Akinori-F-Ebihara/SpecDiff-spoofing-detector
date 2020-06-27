@@ -5,7 +5,7 @@ This repository contains an example code that calculates the SpecDiff descriptor
 - MATLAB R2017b
 
 ## Tutorial of the example code
-Run the main script, 'SpecDiff_main.m'. The script loads a pair of example photos, taken with and without flash, to compute SpecDiff descriptor. The descriptor is classified to one of the two classes, live or spoof, by the Support Vector Machine (SVM) with a Radial Basis Function (RBF) kernel. Positive and negative value of classification scores indicate live and spoof class, respectively.
+Run the main script, 'SpecDiff_main.m'. The script loads a pair of example photos, taken with and without flash, to compute the SpecDiff descriptor. The descriptor is classified to one of the two classes, live or spoof, by the Support Vector Machine (SVM) with a Radial Basis Function (RBF) kernel. Positive and negative value of classification scores indicate live and spoof class, respectively.
 
 ___Result Plot___
 
