@@ -1,7 +1,12 @@
 % An example implementation of the SpecDiff descriptor.
 %
-% Radial basis function kernel-SVM is used with pretrained weights for
-% classification.
+% inputs: Pair of facial images, one with flash and another without flash
+% (i.e., under background light)
+%
+% outputs: SVM classification scores (positive: live, negative: spoof)
+% and the calculated SpecDiff plotted on a figure.
+% For the SVM, Radial basis function kernel-SVM is used with pretrained weights 
+% to classify the SpecDiff descriptor.
 %
 % June 18th, 2020. Akinori F. Ebihara.
 
