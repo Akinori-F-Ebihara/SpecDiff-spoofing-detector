@@ -30,6 +30,34 @@ ___Result Plot___
 - GaussFilter.m 
   - Apply Gaussian filter to the input image.
 
+- calc_SpecDiff.m
+  - Calculate the SpecDiff descriptor using the preprocessed iris and facial images.
+
+- run_RBF_SVM.m
+  - Classify the SpecDiff descriptor into either live or spoof class.
+
+- face_cen/
+  - A folder that contains positions of the center of faces.
+
+- face_loc/
+  - A folder that contains positions of the facial feature points.
+
+- live_background/
+  - A folder that contains example live facial photos taken without flash.
+
+- live_flash/
+  - A folder that contains example live facial photos taken with flash.
+ 
+- parameters/
+  - A folder that contains the SVM pretrained parameters.
+  
+- spoof_background
+  - A folder that contains example spoof facial photos taken without flash.
+
+- spoof_flash
+  - A folder that contains example spoof facial photos taken with flash.
+
+
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
