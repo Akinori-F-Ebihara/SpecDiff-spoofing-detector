@@ -74,7 +74,7 @@ score_spoof = run_RBF_SVM(SpecDiff_spoof, params);
 
 
 % visualize the result
-figure('Position', [10, 10, 1628, 1010]);
+figure('Position', [10, 10, 819, 510]);
 hold on;
 id = 1;
 plot(SpecDiff_live{id}, 'linewidth', 2);
