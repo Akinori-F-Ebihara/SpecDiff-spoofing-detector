@@ -48,14 +48,15 @@ ___Result Plot___
 - live_flash/
   - A folder that contains example live facial photos taken with flash.
  
+- spoof_background/
+  - A folder that contains example spoof facial photos taken without flash.
+
+- spoof_flash/
+  - A folder that contains example spoof facial photos taken with flash.
+
 - parameters/
   - A folder that contains the SVM pretrained parameters.
   
-- spoof_background
-  - A folder that contains example spoof facial photos taken without flash.
-
-- spoof_flash
-  - A folder that contains example spoof facial photos taken with flash.
 
 
 ## Citation
