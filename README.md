@@ -11,6 +11,10 @@ ___Result Plot___
 
 <img src ="./SpecDiff_result.png" width=75%>
 
+## Files and directories
+- SpecDiff_main.m
+The main script applies preprocessing to example photo pairs, and classify them into either live or spoof class.
+
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
