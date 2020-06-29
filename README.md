@@ -15,6 +15,21 @@ ___Result Plot___
 - SpecDiff_main.m
   - The main script applies preprocessing to example photo pairs, and classify them into either live or spoof class.
 
+- load_facial_images.m 
+  - Load a pair of facial photo, one with flash and another without flash.
+  
+- preprocessing.m
+  - Apply the seven preprocessing functions (i.e., Rotation, Grayscale, FaceDetection, FeatExtraction, FaceCrop, GaussFilter, and Resize) that is described in the paper.
+
+- FaceDetection.m / FeatExtraction.m
+  - Actual functions that are used to produce the experimental results presented in the paper are a commercial and cannot be fully disclosed. Instead, we load precalculated facial location and feature point locations in FaceDetection.m and FeatExtraction.m.
+  
+- FaceCrop.m
+  - Crop face and iris regions from the input image.
+  
+- GaussFilter.m 
+  - Apply Gaussian filter to the input image.
+
 ## Citation
 ___Please cite our paper if you use the whole or a part of our codes.___
 ```
