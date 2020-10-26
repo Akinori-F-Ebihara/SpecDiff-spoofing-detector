@@ -1,5 +1,6 @@
 # SpecDiff-spoofing-detector
-This repository contains an example code that calculates the SpecDiff descriptor proposed in ["Specular- and Diffuse-reflection-based Face Spoofing Detection for Mobile Devices"](https://arxiv.org/abs/1907.12400) to perform face spoofing detection. The SpecDiff descriptor utilizes specular and diffuse reflection of a facial image, enables fast-and-accurate spoofing detection without either a large training database or a high-performance computing system.
+This repository contains an example code that calculates the SpecDiff descriptor proposed in our IJCB paper, [Specular- and Diffuse-reflection-based Face Spoofing Detection for Mobile Devices](https://arxiv.org/abs/1907.12400), to perform face presentation attack (spoofing) detection. The SpecDiff descriptor utilizes specular and diffuse reflection of a facial image, enables fast-and-accurate spoofing detection without either a large training database or a high-performance computing system.  
+*Oct. 2020 update: our paper won **IJCB 2020 Google PC Chairs Choice Best Paper Award.**
 
 ## Tested computing environment
 - MATLAB R2017b
